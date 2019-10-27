@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ListDataActivity/">
+
+    <item
+        android:id="@+id/viewnote1"
+        android:title="Search"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/addrem1"
+        android:title="Add reminder"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="always">
+
+
+        <menu>
+            <item
+                android:id="@+id/addnotes"
+                android:title="Add Note"
+                android:icon="@drawable/ic_event_note_black_24dp"
+                app:showAsAction="always">
+            </item>
+
+            <item
+                android:id="@+id/checklist"
+                android:title="Check List"
+                android:icon="@drawable/ic_playlist_add_check_black_24dp"
+                app:showAsAction="always">
+            </item>
+
+            <item
+                android:title="Voice Note"
+                android:icon="@drawable/ic_keyboard_voice_black_24dp"
+                app:showAsAction="always">
+
+                <menu>
+                    <item
+                        android:title="Voice Recorder"
+                        android:id="@+id/voicerecorder"
+                        android:icon="@drawable/ic_record_voice_over_black_24dp"
+                        app:showAsAction="always">
+                    </item>
+
+                    <item
+                        android:title="Voice Recognizer"
+                        android:id="@+id/voicerecognizer"
+                        android:icon="@drawable/ic_keyboard_voice_black_24dp"
+                        app:showAsAction="always">
+                    </item>
+
+                </menu>
+            </item>
+
+        </menu>
+
+
+    </item>
+</menu>

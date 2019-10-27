@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="500dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/pocketbgimmenu"
+    tools:context=".MainActivity">
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Hello World!"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--app:layout_constraintRight_toRightOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<ScrollView-->
+    <!--android:layout_width="315dp"-->
+    <!--android:layout_height="500dp"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:layout_marginTop="40dp"-->
+    <!--android:background="#FFFFFF">-->
+    <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginLeft="15dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginTop="40dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="250dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/viewtext"/>&ndash;&gt;-->
+    <!--<TextView-->
+    <!--android:layout_marginTop="16dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/viewtext"/>-->
+    <!--</ScrollView>-->
+    <!--&lt;!&ndash;<ListView&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/listView">&ndash;&gt;-->
+    <!--&lt;!&ndash;</ListView>&ndash;&gt;-->
+    <!--<ImageView-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginLeft="275dp"-->
+    <!--android:layout_marginTop="-50dp"-->
+    <!--android:background="@drawable/save_button"-->
+    <!--android:id="@+id/done"/>-->
+
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="50dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="50dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginLeft="268dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginTop="-50dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@drawable/view_database_button"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/viewdatabase"/>&ndash;&gt;-->
+
+
+    <!--<ScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!---->
+    <!--</ScrollView>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/qrcodescanner"
+            android:text="Flash Light"
+            android:background="@drawable/flashlight_btn"
+            android:id="@+id/flashlight"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+
+            android:text="Calculator"
+            android:background="@drawable/calculator_btn"
+            android:id="@+id/calculator"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+
+            android:layout_toRightOf="@+id/calculator"
+            android:text="Notepad"
+            android:background="@drawable/notepad_btn"
+            android:id="@+id/notepadapp"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/calculator"
+            android:text="Docs"
+            android:background="@drawable/docs_bton"
+            android:id="@+id/docs"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/docs"
+            android:layout_below="@+id/notepadapp"
+            android:text="Timer"
+            android:background="@drawable/timer_btn"
+            android:id="@+id/timer"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/docs"
+            android:text="QR Code Scanner"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/qrcode_btn"
+            android:id="@+id/qrcodescanner"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/qrcodescanner"
+            android:layout_below="@+id/timer"
+            android:text="Calander"
+            android:background="@drawable/calendar_btn"
+            android:id="@+id/calander"/>
+
+        <!--<TextView-->
+        <!--android:layout_width="400dp"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:id="@+id/tv1"-->
+        <!--android:layout_below="@+id/flashlight"/>-->
+
+        <!--<TextView-->
+        <!--android:layout_width="400dp"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:id="@+id/tv2"-->
+        <!--android:layout_below="@+id/tv1"/>-->
+
+    </RelativeLayout>
+
+</ScrollView>
